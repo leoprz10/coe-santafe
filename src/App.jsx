@@ -1,8 +1,17 @@
 import './App.css'
 
+ import { Main } from './components/Main'
+ import { Footer } from './components/Footer'
+
 function App() {
   return (
-    <div>COE Santa Fe probando</div>
+    <div className="caja">
+     <Main/> 
+     <Footer/>
+     
+ 
+
+    </div>
   )
   
 }
